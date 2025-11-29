@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"magicorigins:increased_reach",
+		"magicorigins:telekinesis",
+		"origins:extra_reach",
+		"moborigins:small_weak_knockback",
+		"origins:more_kinetic_damage",
+		"origins:claustrophobia"
+	],
+	"icon": {
+		"item": "minecraft:chorus_fruit"
+	},
+	"order": 5001,
+	"impact": 1,
+	"description": "Mages who use their minds to extend their reach and pick up items from a distance."
+}

@@ -1,0 +1,21 @@
+{
+	"powers": [
+		"magicorigins:undead_commander",
+		"magicorigins:bring_back_dead",
+		"magicorigins:spirit_strength",
+		"magicorigins:undead_ally",
+		"magicorigins:dark_aura",
+		"monsterorigins:wither_immunity",
+		"origins:nether_spawn",
+		"monsterorigins:undead",
+		"moborigins:pillager_aligned",
+		"fantasyorigins:leeching",
+		"origins:water_vulnerability"
+	],
+	"icon": {
+		"item": "minecraft:skeleton_skull"
+	},
+	"order": 5002,
+	"impact": 2,
+	"description": "Dark mages who use spells to resurrect and control the dead."
+}

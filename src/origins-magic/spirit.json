@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"magicorigins:silent",
+		"magicorigins:invisible_when_still",
+		"magicorigins:spirit_strength",
+		"monsterorigins:half_max_saturation"
+	],
+	"icon": {
+		"item": "minecraft:glass"
+	},
+	"order": 5003,
+	"impact": 2,
+	"description": "Spirits are lost souls that continue to wander the earth, rarely sighted and heard even less."
+}

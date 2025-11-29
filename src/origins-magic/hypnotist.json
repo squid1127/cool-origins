@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"magicorigins:control_monsters",
+		"magicorigins:interactions_give_nausea",
+		"magicorigins:unskilled_warrior",
+		"monsterorigins:super_bartering",
+		"moborigins:illager"
+	],
+	"icon": {
+		"item": "minecraft:tinted_glass"
+	},
+	"order": 5001,
+	"impact": 2,
+	"description": "Hypnotists have a knack for confusing and controlling their enemies to get their way."
+}

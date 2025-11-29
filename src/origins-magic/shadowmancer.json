@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"magicorigins:invisible_in_darkness",
+		"magicorigins:dark_strength",
+		"magicorigins:double_fire_damage",
+		"magicorigins:burn_in_light",
+		"magicorigins:no_fire_resistance"
+	],
+	"icon": {
+		"item": "minecraft:obsidian"
+	},
+	"order": 5001,
+	"impact": 3,
+	"description": "Shadowmancers push themselves to their very limits, giving them fearsome and dark power."
+}

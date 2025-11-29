@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"magicorigins:potion_master",
+		"magicorigins:gold_converter",
+		"magicorigins:unskilled_warrior",
+		"magicorigins:weak_in_water",
+		"magicorigins:poor_shot",
+		"fantasyorigins:magic_resistance"
+	],
+	"icon": {
+		"item": "minecraft:splash_potion"
+	},
+	"order": 5000,
+	"impact": 1,
+	"description": "The alchemist knows its way around potions, as well as being able to produce gold."
+}
