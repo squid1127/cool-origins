@@ -14,7 +14,7 @@ A set of custom origins for the Origins Reborn minecraft plugin.
 
 ## Project Structure
 
-Each origin is contained within its own folder inside the `origins` directory. Each folder contains all necessary files for that origin, including configuration files and Skript scripts if applicable.
+Origins can be found in the `origins` folder, while Skript files are in the `skripts` folder.
 
 ## Installation
 
