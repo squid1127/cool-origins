@@ -1,0 +1,11 @@
+on load:
+    register a new ability with key "squid1127:wind_jump" and title "Wind Jump" and description "You release a wind charge when sneaking, allowing you to boost yourself into the air."
+
+
+on sneak toggle:
+    if player has ability "squid1127:wind_jump":
+        if player is not sneaking:
+            if player is on ground:
+                summon wind charge at player:
+                    detonate the wind charge
+

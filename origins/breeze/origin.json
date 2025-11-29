@@ -1,0 +1,18 @@
+{
+	"powers": [
+		"squid1127:wind_jump",
+		"origins:no_shield",
+		"origins:tailwind",
+		"origins:damage_from_potions",
+		"fantasyorigins:strong_skin",
+		"moborigins:small_fox"
+	],
+	"icon": {
+		"item": "minecraft:wind_charge"
+	},
+	"order": 9002,
+	"impact": 3,
+	"name": "Breeze",
+	"description": "A breeze-like being that can manipulate wind to boost themselves into the air.",
+	"unchoosable": false
+}
