@@ -1,0 +1,26 @@
+{
+	"powers": [
+        "origins:fall_immunity",
+        "origins:sprint_jump",
+        "origins:no_shield",
+        "origins:water_vision",
+        "monsterorigins:cold_slowness",
+        "moborigins:overheat",
+        "monsterorigins:heat_slowness",
+        "monsterorigins:water_breathing",
+        "squid1127:frog_jump",
+        "monsterorigins:double_fire_damage",
+        "origins:tailwind",
+        "moborigins:surface_weakness",
+        "moborigins:temperature"
+
+	],
+	"icon": {
+		"item": "minecraft:tadpole_bucket"
+	},
+	"order": 9004,
+	"impact": 3,
+	"name": "Frog",
+	"description": "Amphibians, able to move in both water and land, as long as they don't dry out.",
+	"unchoosable": false
+}
