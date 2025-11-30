@@ -1,6 +1,7 @@
 {
 	"powers": [
 		"squid1127:wind_jump",
+		"origins:fall_immunity",
 		"origins:no_shield",
 		"origins:tailwind",
 		"origins:damage_from_potions",
