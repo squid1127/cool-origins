@@ -3,7 +3,7 @@
 		"magicorigins:potion_master",
 		"magicorigins:gold_converter",
 		"magicorigins:unskilled_warrior",
-		"magicorigins:weak_in_water",
+		"origins:water_vulnerability",
 		"magicorigins:poor_shot",
 		"fantasyorigins:magic_resistance"
 	],
