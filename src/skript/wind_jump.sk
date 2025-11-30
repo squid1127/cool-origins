@@ -6,6 +6,14 @@ on sneak toggle:
     if player has ability "squid1127:wind_jump":
         if player is not sneaking:
             if player is on ground:
+                if {cooldown::%uuid of player%::wind_jump} is set:
+                    if {cooldown::%uuid of player%::wind_jump} was less than 5 seconds ago:
+                        send "<red>5s cooldown! %time since {cooldown::%uuid of player%::wind_jump}% elapsed..." to player
+                        exit
+
                 summon wind charge at player:
                     detonate the wind charge
 
+                set {cooldown::%uuid of player%::wind_jump} to now
+
+                wait 5 seconds
