@@ -1,0 +1,25 @@
+on load:
+    register a new ability with key "squid1127:call_of_the_sea" and title "Call of the Sea" and description "You can call a thunderstorm on command using /cots every so often."
+
+
+command /cots:
+    description: Call of the sea activation key
+    permission: squid1127.origins.cots
+    trigger:
+        if player has ability "squid1127:call_of_the_sea":
+            if {cooldown::%uuid of player%::cots} is set:
+                if {cooldown::%uuid of player%::cots} was less than 1200 seconds ago:
+                    send "<red>20m cooldown! %time since {cooldown::%uuid of player%::cots}% elapsed..."
+                    exit
+
+            if weather in "%world of player%" is thundering:
+                send "<red>Its already thundering!"
+                exit
+
+            set {origin::cots::weather} to weather in "%world of player%"
+            broadcast "<grey>[<aqua>Origins<grey>]<white> Call of the Sea activated!"
+            set {cooldown::%uuid of player%::cots} to now
+
+            set weather in "%world of player%" to thunder
+        else:
+            send "<red>You do not have this ability" to player
