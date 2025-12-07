@@ -16,4 +16,12 @@ on sneak toggle:
 
                 set {cooldown::%uuid of player%::wind_jump} to now
 
-                wait 5 seconds
+                set {_cd_bar} to boss bar with id "cooldown__%uuid of player%__wind_jump" with title "Wind Jump" with color white with progress 0
+                add player to {_cd_bar}
+
+                while {cooldown::%uuid of player%::wind_jump} was less than 5 seconds ago:
+                    set {_t} to difference between now and {cooldown::%uuid of player%::wind_jump}
+                    set bar progress of {_cd_bar} to seconds of {_t} * 20
+                    wait 0.5 seconds
+
+                delete boss bar with id "cooldown__%uuid of player%__wind_jump"
