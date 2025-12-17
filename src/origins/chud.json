@@ -50,7 +50,7 @@
 		"item": "minecraft:poisonous_potato"
 	},
 	"order": 9005,
-	"impact": 3,
+	"impact": 5,
 	"name": "Fat Chud",
 	"description": "A loser with almost every debuff in game.",
     "unchoosable": false
