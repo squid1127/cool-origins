@@ -12,7 +12,7 @@
 		"item": "minecraft:wind_charge"
 	},
 	"order": 9002,
-	"impact": 3,
+	"impact": 1,
 	"name": "Breeze",
 	"description": "A breeze-like being that can manipulate wind to boost themselves into the air.",
 	"unchoosable": false
