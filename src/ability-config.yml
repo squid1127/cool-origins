@@ -522,7 +522,7 @@ magicorigins:
     # Whether to apply the Totem of Undying effect when a player is brought back
     use_totem_effects: true
     # The duration of the cooldown (in ticks)
-    cooldown-duration: 6000
+    cooldown-duration: 3600
   invisible_in_darkness:
     # The light level the player turns invisible in
     light_level: 4
