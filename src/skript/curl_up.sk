@@ -1,0 +1,19 @@
+on load:
+    register a new ability with key "squid1127:curl_up" and title "Curl Up" and description "You can curl up into a ball whilst sneaking, giving you resistance and slowness"
+
+
+on sneak toggle:
+    if player has ability "squid1127:curl_up":
+        if player is not sneaking:
+            if player is not gliding:
+                apply potion of resistance of tier 4 to the player for 5 seconds
+                apply potion of slowness of tier 4 to the player for 5 seconds
+
+                wait 0.5 seconds
+                while player is sneaking:
+                    apply potion of resistance of tier 4 to the player for 5 seconds
+                    apply potion of slowness of tier 4 to the player for 5 seconds
+
+                    wait 0.5 seconds
+                remove resistance from player
+                remove slowness from player
