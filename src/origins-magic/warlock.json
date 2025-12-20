@@ -4,7 +4,11 @@
 		"magicorigins:cursed_strikes",
 		"magicorigins:undead_ally",
 		"magicorigins:dark_aura",
-		"origins:water_vulnerability"
+		"origins:water_vulnerability",
+		"fantasyorigins:water_sensitive",
+		"magicorigins:weak_in_water",
+		"magicorigins:no_magic"
+
 	],
 	"icon": {
 		"item": "minecraft:wither_skeleton_skull"
