@@ -133,6 +133,14 @@ origins:
   light_armor:
     # Armor allowed to be equipped
     allowed_armor:
+    - minecraft:copper_boots
+    - minecraft:copper_leggings
+    - minecraft:copper_chestplate
+    - minecraft:copper_helmet
+    - minecraft:iron_chestplate
+    - minecraft:iron_leggings
+    - minecraft:iron_helmet
+    - minecraft:iron_boots
     - minecraft:chainmail_helmet
     - minecraft:chainmail_chestplate
     - minecraft:chainmail_leggings
