@@ -18,7 +18,7 @@
 	"icon": {
 		"item": "minecraft:tadpole_bucket"
 	},
-	"order": 9004,
+	"order": 9003,
 	"impact": 2,
 	"name": "Frog",
 	"description": "Amphibians, able to move in both water and land, as long as they don't dry out.",
