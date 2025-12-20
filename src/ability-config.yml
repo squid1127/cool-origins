@@ -461,11 +461,11 @@ fantasyorigins:
       operation: MULTIPLY_SCALAR_1
       # A mathematical expression used to modify the attribute, where 'x' is a variable representing the default modifier.
       # Example: 'x * 3' will triple the value used in the modifier.
-      expression: x
+      expression: x 
 magicorigins:
   kill_boost:
     # The maximum amount of extra health you can get
-    max_boost: 60
+    max_boost: 80
     attribute-modifier:
       # The operation to use ('ADD_SCALAR', 'ADD_NUMBER' or 'MULTIPLY_SCALAR_1')
       operation: ADD_NUMBER
@@ -567,7 +567,7 @@ moborigins:
       operation: ADD_NUMBER
       # A mathematical expression used to modify the attribute, where 'x' is a variable representing the default modifier.
       # Example: 'x * 3' will triple the value used in the modifier.
-      expression: x
+      expression: x - 3
   small_fox:
     attribute-modifier:
       # The operation to use ('ADD_SCALAR', 'ADD_NUMBER' or 'MULTIPLY_SCALAR_1')
