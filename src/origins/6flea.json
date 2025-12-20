@@ -1,0 +1,25 @@
+{
+	"powers": [
+		"fantasyorigins:small_body",
+        "origins:carnivore",
+        "origins:fragile",
+        "magicorigins:kill_boost",
+        "moborigins:sly",
+        "origins:weak_arms",
+        "origins:fall_immunity",
+        "origins:no_shield",
+        "moborigins:small_bug",
+        "origins:arthropod",
+        "origins:water_vulnerability",
+        "magicorigins:interactions_give_nausea",
+        "origins:sprint_jump"
+	],
+	"icon": {
+		"item": "minecraft:fermented_spider_eye"
+	},
+	"order": 9006,
+	"impact": 3,
+	"name": "Flea",
+	"description": "Bloodsucking, lifestealing bug that is an expert at hiding away and surviving",
+	"unchoosable": false
+}
