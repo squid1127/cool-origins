@@ -12,8 +12,9 @@ A set of custom origins for the Origins Reborn minecraft plugin.
 | ----------- | ------------------------------------------------------------------------------- | ------ |
 | Breeze      | A breeze-like being that can manipulate wind to boost themselves into the air.  | ✅✴️   |
 | Rat         | A rodent that can fit into small spaces and has enhanced senses. Can also poo   | ✅✴️   |
-| Kraken      | A legendary sea monster that lies deep underwater.. can summon thunderstorms    | ⏺️✴️   |
+| Kraken      | A legendary sea monster that lies deep underwater and can summon thunderstorms  | ⏺️✴️   |
 | Frog        | Amphibians, able to move in both water and land, as long as they don't dry out. | ✅✴️   |
+| Chud        | A loser that has every downside in the game. A punishment.                      | ✅     |
 
 ### Overridden Origins
 
