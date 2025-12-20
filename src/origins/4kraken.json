@@ -1,0 +1,27 @@
+{
+        "powers": [
+                "origins:water_breathing",
+                "origins:water_vision",
+                "monsterorigins:land_slowness",
+                "origins:aqua_affinity",
+                "origins:like_water",
+                "origins:burn_in_daylight",
+                "magicorigins:interactions_give_nausea",
+                "origins:carnivore",
+                "origins:more_exhaustion",
+                "origins:natural_armor",
+                "magicorigins:increased_reach",
+                "fantasyorigins:large_body",
+                "fantasyorigins:magic_resistance",
+                "fantasyorigins:ocean_wish",
+                "squid1127:call_of_the_sea"
+        ],
+        "icon": {
+                "item": "minecraft:heart_of_the_sea"
+        },
+        "order": 9004,
+        "impact": 3,
+        "name": "Kraken",
+        "description": "A large and mighty sea beast that lurks in the ocean depths",
+        "unchoosable": false
+}
