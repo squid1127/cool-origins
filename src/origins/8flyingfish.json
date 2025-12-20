@@ -1,0 +1,26 @@
+{
+	"powers": [
+		"origins:elytra",
+        "origins:swim_speed",
+        "origins:water_breathing",
+        "origins:fragile",
+        "origins:no_shield",
+        "origins:aquatic",
+        "origins:air_from_potions",
+        "origins:launch_into_air",
+        "origins:weak_arms",
+        "origins:water_vision",
+        "origins:aqua_affinity",
+        "magicorigins:unskilled_warrior",
+        "fantasyorigins:oceans_grace",
+        "fantasyorigins:ocean_wish"
+	],
+	"icon": {
+		"item": "minecraft:tropical_fish"
+	},
+	"order": 9008,
+	"impact": 3,
+	"name": "Flying Fish",
+	"description": "A fish with wings, able to glide under and above water with grace",
+	"unchoosable": false
+}
