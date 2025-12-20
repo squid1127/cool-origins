@@ -1,0 +1,18 @@
+{
+	"powers": [
+		"magicorigins:unskilled_warrior",
+		"monsterorigins:slowness",
+		"squid1127:curl_up",
+		"fantasyorigins:poor_shot",
+		"fantasyorigins:natural_armor",
+		"monsterorigins:double_health"
+	],
+	"icon": {
+		"item": "minecraft:armadillo_scute"
+	},
+	"order": 9007,
+	"impact": 1,
+	"name": "Armadillo",
+	"description": "A defensive mob that is almost impossible to kill.",
+	"unchoosable": false
+}
