@@ -4,6 +4,8 @@ A set of custom origins for the Origins Reborn minecraft plugin.
 
 ## Origin List
 
+Note: this list is probably out of date lol
+
 ✅ - Completed  
 ✴️ - Uses Skript for custom powers
 ⏺️ - In Progress
