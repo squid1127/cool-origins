@@ -178,7 +178,7 @@ class OriginsDocsGenerator:
                 if origin.unchoosable:
                     subheading.append("**UNCHOOSABLE**")
                 if origin.impact > 0:
-                    subheading.append("٭" * origin.impact)
+                    subheading.append(f"({'٭' * origin.impact})")
                 if subheading:
                     docs += " · ".join(subheading) + "\n\n"
                 docs += f"{origin.description}\n\n"
