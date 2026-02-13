@@ -172,15 +172,15 @@ class OriginsDocsGenerator:
         for source, origins_list in origins.items():
             docs += f"### {source}\n\n"
             for origin in origins_list:
-                docs += f"#### {origin.friendly_name}\n\n"
                 
-                subheading = [f"`{origin.id}`"]
+                origin_heading = [f"#### {origin.friendly_name}", f"`{origin.id}`"]
                 if origin.unchoosable:
-                    subheading.append("**UNCHOOSABLE**")
+                    origin_heading.append("**UNCHOOSABLE**")
                 if origin.impact > 0:
-                    subheading.append(f"({'٭' * origin.impact})")
-                if subheading:
-                    docs += " · ".join(subheading) + "\n\n"
+                    origin_heading.append(f"({'٭' * origin.impact})")
+                    
+                docs += " · ".join(origin_heading) + "\n\n"
+                
                 docs += f"{origin.description}\n\n"
                 
         docs += "## Abilities\n\n"
