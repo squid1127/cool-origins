@@ -4,353 +4,239 @@
 
 ### Origins-Reborn
 
-#### Avian
-
-`avian` · (٭)
+#### Avian · `avian` · (٭)
 
 The Avian race has lost their ability to fly a long time ago. Now these peaceful creatures can be seen gliding from one place to another.
 
-#### Feline
-
-`feline` · (٭٭)
+#### Feline · `feline` · (٭٭)
 
 With their cat-like appearance, the Feline scare creepers away. With the dexterity of cats, they always land safely on their feet.
 
-#### Human
-
-`human`
+#### Human · `human`
 
 A regular human. Your ordinary Minecraft experience awaits.
 
-#### Merling
-
-`merling` · (٭٭٭)
+#### Merling · `merling` · (٭٭٭)
 
 These natural inhabitants of the ocean are not used to being out of the water for too long.
 
-#### Arachnid
-
-`arachnid` · (٭)
+#### Arachnid · `arachnid` · (٭)
 
 Their climbing abilities and the ability to trap their foes in spiderweb make the Arachnid perfect hunters.
 
-#### Blazeborn
-
-`blazeborn` · (٭٭٭)
+#### Blazeborn · `blazeborn` · (٭٭٭)
 
 Late descendants of the Blaze, the Blazeborn are naturally immune to the perils of the Nether.
 
-#### Enderian
-
-`enderian` · (٭٭)
+#### Enderian · `enderian` · (٭٭)
 
 Born as children of the Ender Dragon, Enderians are capable of teleporting but are vulnerable to water.
 
-#### Phantom
-
-`phantom` · (٭٭٭)
+#### Phantom · `phantom` · (٭٭٭)
 
 As half-human and half-phantom beings, these creatures can switch between a Phantom and a normal form.
 
-#### Elytrian
-
-`elytrian` · (٭)
+#### Elytrian · `elytrian` · (٭)
 
 Often flying around in the winds, Elytrians are uncomfortable when they don't have enough space above their head.
 
-#### Shulk
-
-`shulk` · (٭)
+#### Shulk · `shulk` · (٭)
 
 Related to Shulkers, the bodies of the Shulk are outfitted with a protective shell-like skin.
 
-#### Rat
-
-`1rat` · (٭٭٭)
+#### Rat · `1rat` · (٭٭٭)
 
 Small and sneaky rodents that thrive in urban environments.
 
-#### Breeze
-
-`2breeze` · (٭)
+#### Breeze · `2breeze` · (٭)
 
 A breeze-like being that can manipulate wind to boost themselves into the air.
 
-#### Frog
-
-`3frog` · (٭٭)
+#### Frog · `3frog` · (٭٭)
 
 Amphibians, able to move in both water and land, as long as they don't dry out.
 
-#### Kraken
-
-`4kraken` · (٭٭٭)
+#### Kraken · `4kraken` · (٭٭٭)
 
 A large and mighty sea beast that lurks in the ocean depths
 
-#### Fat Chud
-
-`5chud` · (٭٭٭٭٭)
+#### Fat Chud · `5chud` · (٭٭٭٭٭)
 
 A loser with almost every debuff in game.
 
-#### Flea
-
-`6flea` · (٭٭٭)
+#### Flea · `6flea` · (٭٭٭)
 
 Bloodsucking, lifestealing bug that is an expert at hiding away and surviving
 
-#### Armadillo
-
-`7armadillo` · (٭)
+#### Armadillo · `7armadillo` · (٭)
 
 A defensive mob that is almost impossible to kill.
 
-#### Flying Fish
-
-`8flyingfish` · (٭٭٭)
+#### Flying Fish · `8flyingfish` · (٭٭٭)
 
 A fish with wings, able to glide under and above water with grace
 
 ### Origins-Fantasy
 
-#### Centaur
-
-`centaur` · (٭٭٭)
+#### Centaur · `centaur` · (٭٭٭)
 
 Worshippers of the moon and trained fighters, the Centaurs are much more powerful than regular horses, and become stronger on a full moon.
 
-#### Elf
-
-`elf` · (٭)
+#### Elf · `elf` · (٭)
 
 Skilled masters of the bow, Elves shoot arrows that are much stronger and faster than any other creatures.
 
-#### Giant
-
-`giant` · (٭٭)
+#### Giant · `giant` · (٭٭)
 
 Although clumsy and weak with a bow and arrow, Giants are powerful creatures that can destroy any foe with their fists.
 
-#### Human
-
-`human`
+#### Human · `human`
 
 A regular human, born without any special abilities.
 
-#### Bard
-
-`bard` · (٭٭٭)
+#### Bard · `bard` · (٭٭٭)
 
 Bards are masters of music and song, and emit a musical aura.
 
-#### Dragonborn
-
-`dragonborn` · (٭)
+#### Dragonborn · `dragonborn` · (٭)
 
 Children of ancient, long forgotten dragons, the Dragonborn have the increased power of their ancestors when in their homeland of the End.
 
-#### Dwarf
-
-`dwarf` · (٭٭)
+#### Dwarf · `dwarf` · (٭٭)
 
 Known for their great skill in finding minerals, the Dwarfs spend most of their time in caves deep underground.
 
-#### Gargoyle
-
-`gargoyle` · (٭٭)
+#### Gargoyle · `gargoyle` · (٭٭)
 
 Stone statues awoken by magic, Gargoyles move slowly but are very strong.
 
-#### Naiad
-
-`naiad` · (٭٭٭)
+#### Naiad · `naiad` · (٭٭٭)
 
 Spirits that have a special connection to the water, Naiads become much stronger in their home territory, though are weak on land.
 
-#### Vampire
-
-`vampire` · (٭٭٭)
+#### Vampire · `vampire` · (٭٭٭)
 
 The vampire is a powerful creature of the night, with the ability to transform those it kills into more of its kind.
 
 ### Origins-Magic
 
-#### Alchemist
-
-`alchemist` · (٭)
+#### Alchemist · `alchemist` · (٭)
 
 The alchemist knows its way around potions, as well as being able to produce gold.
 
-#### Healer
-
-`healer` · (٭٭)
+#### Healer · `healer` · (٭٭)
 
 Healers try to avoid fights and instead heal others, working to keep their teammates safe.
 
-#### Warlock
-
-`warlock` · (٭٭٭)
+#### Warlock · `warlock` · (٭٭٭)
 
 Evil sorcerers using corrupted magic, Warlocks cannot use regular magic but have their own, stronger powers.
 
-#### Hypnotist
-
-`hypnotist` · (٭٭)
+#### Hypnotist · `hypnotist` · (٭٭)
 
 Hypnotists have a knack for confusing and controlling their enemies to get their way.
 
-#### Shadowmancer
-
-`shadowmancer` · (٭٭٭)
+#### Shadowmancer · `shadowmancer` · (٭٭٭)
 
 Shadowmancers push themselves to their very limits, giving them fearsome and dark power.
 
-#### Telekinetic
-
-`telekinetic` · (٭)
+#### Telekinetic · `telekinetic` · (٭)
 
 Mages who use their minds to extend their reach and pick up items from a distance.
 
-#### Necromancer
-
-`necromancer` · (٭٭)
+#### Necromancer · `necromancer` · (٭٭)
 
 Dark mages who use spells to resurrect and control the dead.
 
-#### Spirit
-
-`spirit` · (٭٭)
+#### Spirit · `spirit` · (٭٭)
 
 Spirits are lost souls that continue to wander the earth, rarely sighted and heard even less.
 
 ### Origins-Mobs
 
-#### Drowned
-
-`drowned` · (٭)
+#### Drowned · `drowned` · (٭)
 
 The dwellers of the deep ocean, they wield their tridents and attack the living that dare cross the ocean.
 
-#### Fox
-
-`fox` · (٭)
+#### Fox · `fox` · (٭)
 
 Sly and cunning, foxes are timid animals who enjoy eating berries, and stealing items.
 
-#### Wolf
-
-`wolf` · (٭)
+#### Wolf · `wolf` · (٭)
 
 Strong and Fast, Wolves are creatures that have strength in numbers.
 
-#### Slime
-
-`slime` · (٭)
+#### Slime · `slime` · (٭)
 
 Green blobs of Jello, that bounce all around!
 
-#### Bee
-
-`bee` · (٭٭)
+#### Bee · `bee` · (٭٭)
 
 A flying insect that pollinates the world, spreading flowers and honey all around.
 
-#### Evoker
-
-`evoker` · (٭٭)
+#### Evoker · `evoker` · (٭٭)
 
 Master of Magic, and a collector of Totems.
 
-#### Snow Golem
-
-`snow_golem` · (٭٭٭)
+#### Snow Golem · `snow_golem` · (٭٭٭)
 
 Golems made from snow, and weak to anything that might melt them.
 
-#### Strider
-
-`strider` · (٭٭٭)
+#### Strider · `strider` · (٭٭٭)
 
 Travel the vast oceans of lava with the speed of a strider.
 
-#### Witch
-
-`witch` · (٭٭)
+#### Witch · `witch` · (٭٭)
 
 Cruel and cackling, Witches are masters of brewing, and are great with magic.
 
-#### Elder Guardian
-
-`elder_guardian` · **UNCHOOSABLE** · (٭٭٭)
+#### Elder Guardian · `elder_guardian` · **UNCHOOSABLE** · (٭٭٭)
 
 Elder Guardians are the leaders of monuments, and wield more power than normal guardians.
 
-#### Guardian
-
-`guardian` · (٭٭٭)
+#### Guardian · `guardian` · (٭٭٭)
 
 Guardians are known for protecting their Monuments and the treasured sponges within. Some are known for evolving into Elder Guardians.
 
 ### Origins-Monsters
 
-#### Creeper
-
-`creeper` · (٭)
+#### Creeper · `creeper` · (٭)
 
 A remnant of an unexpected mistake, the Creeper blasts its way through its enemies.
 
-#### Husk
-
-`husk` · **UNCHOOSABLE** · (٭)
+#### Husk · `husk` · **UNCHOOSABLE** · (٭)
 
 The Husks are Zombies that have become used to the much harsher heat of the deserts after staying there for a long period of time.
 
-#### Piglin
-
-`piglin` · (٭)
+#### Piglin · `piglin` · (٭)
 
 Piglins are strange creatures of unknown origin, who formed their own society and culture worshipping their love of gold in the harsh wastelands of the Nether.
 
-#### Skeleton
-
-`skeleton` · (٭)
+#### Skeleton · `skeleton` · (٭)
 
 Reanimated bones of fallen archers, Skeletons have unlimited arrows and a perfect aim.
 
-#### Stray
-
-`stray` · **UNCHOOSABLE** · (٭)
+#### Stray · `stray` · **UNCHOOSABLE** · (٭)
 
 The Strays are frozen Skeletons that have found ways to harness the cold in order to slow down their enemies.
 
-#### Warden
-
-`warden` · (٭٭٭)
+#### Warden · `warden` · (٭٭٭)
 
 Guardian of the Ancient Cities, the Warden relies on its senses of smell and hearing to find its target.
 
-#### Wither Skeleton
-
-`wither_skeleton` · (٭)
+#### Wither Skeleton · `wither_skeleton` · (٭)
 
 Locked away in the nether, over time Wither Skeletons have become resistant to fire.
 
-#### Zombie
-
-`zombie` · (٭)
+#### Zombie · `zombie` · (٭)
 
 Zombies are the corpses of fallen builders that have reawakened in the world for unknown reasons.
 
-#### Zombified Piglin
-
-`zombified_piglin` · **UNCHOOSABLE** · (٭)
+#### Zombified Piglin · `zombified_piglin` · **UNCHOOSABLE** · (٭)
 
 Piglins are strange creatures of unknown origin, who formed their own society and culture worshipping their love of gold in the harsh wastelands of the Nether.
 
-#### Drowned
-
-`drowned` · **UNCHOOSABLE** · (٭)
+#### Drowned · `drowned` · **UNCHOOSABLE** · (٭)
 
 The dwellers of the deep ocean, they wield their tridents and attack the living that dare cross the ocean.
 
