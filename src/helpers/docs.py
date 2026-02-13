@@ -184,7 +184,7 @@ class OriginsDocsGenerator:
                 
                 docs += f"{origin.description}\n\n"
                 
-                docs += f"**Ablities**: \n\n"
+                docs += f"**Ablities**: \n"
                 
                 abilities_list = origin.ablities
                 for ability_id in abilities_list:
@@ -194,6 +194,8 @@ class OriginsDocsGenerator:
                         docs += f"- {ability.friendly_name}: {ability.description}\n"
                     else:
                         docs += f"- `{ability_id}` (Unknown ability)\n"
+                if not abilities_list:
+                    docs += "- None\n"
                         
                 docs += "\n"
                         
