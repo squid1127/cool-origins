@@ -23,6 +23,7 @@ class Origin:
     impact: int
     unchoosable: bool = False
     order: int = field(default=0, compare=True)
+    ablities: list[str] = field(default_factory=list, compare=False)
     
 @dataclass(frozen=True, order=True)
 class Ability:
@@ -86,7 +87,8 @@ class OriginsDocsGenerator:
                     description=data.get("description", ""),
                     impact=data.get("impact", 0),
                     unchoosable=data.get("unchoosable", False),
-                    order=data.get("order", 0)
+                    order=data.get("order", 0),
+                    ablities=data.get("powers", [])
                 )
                 origins.append(origin)
                 
@@ -124,26 +126,26 @@ class OriginsDocsGenerator:
         
         return sorted_origins
     
-    def collect_abilities(self, translations: Path) -> list[Ability]:
-        """Collects abilities from the given translations file and returns a list of Ability objects.
+    def collect_abilities(self, translations: Path) -> dict[str, Ability]:
+        """Collects abilities from the given translations file and returns a dictionary mapping ability IDs to Ability objects.
         
         Args:
             translations (Path): Path to the translations YAML file containing ability data
         Returns:
-            list[Ability]: A list of Ability objects representing the collected abilities
+            dict[str, Ability]: A dictionary mapping ability IDs to Ability objects
         """
         with open(translations, "r") as f:
             data = yaml.safe_load(f)
             translations_data = data.get("translations", {})
             abilities_data = translations_data.get("abilities", {})
-            abilities = []
+            abilities = {}
             for ability_id, ability_info in abilities_data.items():
                 ability = Ability(
                     id=ability_id,
                     friendly_name=ability_info.get("title", ""),
                     description=ability_info.get("description", "")
                 )
-                abilities.append(ability)
+                abilities[ability_id] = ability
             
         return abilities
     
@@ -168,12 +170,11 @@ class OriginsDocsGenerator:
         
         # Generate markdown documentation
         docs = "# List of Origins & Abilities\n\n"
-        docs += "## Origins\n\n"
         for source, origins_list in origins.items():
-            docs += f"### {source}\n\n"
+            docs += f"## {source}\n\n"
             for origin in origins_list:
-                
-                origin_heading = [f"#### {origin.friendly_name}", f"`{origin.id}`"]
+                docs += f"### {origin.friendly_name}\n\n"
+                origin_heading = [f"`{origin.id}`"]
                 if origin.unchoosable:
                     origin_heading.append("**UNCHOOSABLE**")
                 if origin.impact > 0:
@@ -183,8 +184,21 @@ class OriginsDocsGenerator:
                 
                 docs += f"{origin.description}\n\n"
                 
-        docs += "## Abilities\n\n"
-        for ability in abilities:
+                docs += f"**Ablities:**: \n\n"
+                
+                abilities_list = origin.ablities
+                for ability_id in abilities_list:
+                    ability = abilities.get(ability_id, None) or abilities.get(f"origins:{ability_id}", None) or abilities.get(f"{ability_id}_display", None)
+                    
+                    if ability is not None:
+                        docs += f"- {ability.friendly_name}: {ability.description}\n"
+                    else:
+                        docs += f"- `{ability_id}` (Unknown ability)\n"
+                        
+                docs += "\n"
+                        
+        docs += "## All Abilities\n\n"
+        for ability in abilities.values():
             docs += f"### {ability.friendly_name}\n\n"
             docs += f"`{ability.id}`\n\n"
             docs += f"{ability.description}\n\n"
