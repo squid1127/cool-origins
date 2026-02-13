@@ -9,7 +9,6 @@
 The Avian race has lost their ability to fly a long time ago. Now these peaceful creatures can be seen gliding from one place to another.
 
 **Ablities**: 
-
 - Featherweight: You fall as gently to the ground as a feather would, unless you sneak.
 - Fresh Air: When sleeping, your bed needs to be at an altitude of at least %s blocks, so you can breathe fresh air.
 - Tailwind: You are a little bit quicker on foot than others.
@@ -24,7 +23,6 @@ The Avian race has lost their ability to fly a long time ago. Now these peaceful
 With their cat-like appearance, the Feline scare creepers away. With the dexterity of cats, they always land safely on their feet.
 
 **Ablities**: 
-
 - Acrobatics: You never take fall damage, no matter from which height you fall.
 - Strong Ankles: You are able to jump higher by jumping while sprinting.
 - Velvet Paws: Your footsteps don't cause any vibrations which could otherwise be picked up by nearby lifeforms.
@@ -40,7 +38,7 @@ With their cat-like appearance, the Feline scare creepers away. With the dexteri
 A regular human. Your ordinary Minecraft experience awaits.
 
 **Ablities**: 
-
+- None
 
 ### Merling
 
@@ -49,7 +47,6 @@ A regular human. Your ordinary Minecraft experience awaits.
 These natural inhabitants of the ocean are not used to being out of the water for too long.
 
 **Ablities**: 
-
 - Gills: You can breathe underwater, but not on land.
 - Wet Eyes: Your vision underwater is perfect.
 - Aqua Affinity: You may break blocks underwater as others do on land.
@@ -66,7 +63,6 @@ These natural inhabitants of the ocean are not used to being out of the water fo
 Their climbing abilities and the ability to trap their foes in spiderweb make the Arachnid perfect hunters.
 
 **Ablities**: 
-
 - Climbing: You are able to climb up any kind of wall, not just ladders.
 - Master of Webs: You navigate cobweb perfectly, and are able to climb in them. When you hit an enemy in melee, they get stuck in cobweb for a while. Non-arthropods stuck in cobweb will be sensed by you. You are able to craft cobweb from string.
 - Carnivore: Your diet is restricted to meat, you can't eat vegetables.
@@ -82,7 +78,6 @@ Their climbing abilities and the ability to trap their foes in spiderweb make th
 Late descendants of the Blaze, the Blazeborn are naturally immune to the perils of the Nether.
 
 **Ablities**: 
-
 - Fire Immunity: You are immune to all types of fire damage.
 - Nether Inhabitant: Your natural spawn will be in the Nether.
 - Burning Wrath: When on fire, you deal additional damage with your attacks.
@@ -99,7 +94,6 @@ Late descendants of the Blaze, the Blazeborn are naturally immune to the perils 
 Born as children of the Ender Dragon, Enderians are capable of teleporting but are vulnerable to water.
 
 **Ablities**: 
-
 - Teleportation: Whenever you want, you may throw an ender pearl which deals no damage, allowing you to teleport.
 - Hydrophobia: You receive damage over time while in contact with water.
 - Scared of Gourds: You are afraid of pumpkins. For a good reason.
@@ -114,7 +108,6 @@ Born as children of the Ender Dragon, Enderians are capable of teleporting but a
 As half-human and half-phantom beings, these creatures can switch between a Phantom and a normal form.
 
 **Ablities**: 
-
 - `origins:phantomize` (Unknown ability)
 - Phasing: While phantomized, you can walk through solid material, except Obsidian.
 - Invisibility: While phantomized, you are invisible.
@@ -131,7 +124,6 @@ As half-human and half-phantom beings, these creatures can switch between a Phan
 Often flying around in the winds, Elytrians are uncomfortable when they don't have enough space above their head.
 
 **Ablities**: 
-
 - Winged: You have Elytra wings without needing to equip any.
 - Gift of the Winds: Every 30 seconds, you are able to launch about 20 blocks up into the air.
 - Aerial Combatant: You deal substantially more damage while in Elytra flight.
@@ -146,7 +138,6 @@ Often flying around in the winds, Elytrians are uncomfortable when they don't ha
 Related to Shulkers, the bodies of the Shulk are outfitted with a protective shell-like skin.
 
 **Ablities**: 
-
 - Hoarder: You have access to an additional 9 slots of inventory, which keep the items on death.
 - Sturdy Skin: Even without wearing armor, your skin provides natural protection.
 - Strong Arms: You are strong enough to break natural stones without using a pickaxe.
@@ -160,7 +151,6 @@ Related to Shulkers, the bodies of the Shulk are outfitted with a protective she
 Small and sneaky rodents that thrive in urban environments.
 
 **Ablities**: 
-
 - Small Body: You're only one block tall, half as tall as a regular human.
 - Large Appetite: You exhaust much quicker than others, thus requiring you to eat more.
 - Dark Eyes: You can see in the dark after generations of evolution.
@@ -180,7 +170,6 @@ Small and sneaky rodents that thrive in urban environments.
 A breeze-like being that can manipulate wind to boost themselves into the air.
 
 **Ablities**: 
-
 - Wind Jump: You release a wind charge when sneaking, allowing you to boost yourself into the air.
 - Acrobatics: You never take fall damage, no matter from which height you fall.
 - Unwieldy: The way your hands are formed provide no way of holding a shield upright.
@@ -196,7 +185,6 @@ A breeze-like being that can manipulate wind to boost themselves into the air.
 Amphibians, able to move in both water and land, as long as they don't dry out.
 
 **Ablities**: 
-
 - Acrobatics: You never take fall damage, no matter from which height you fall.
 - Strong Ankles: You are able to jump higher by jumping while sprinting.
 - Unwieldy: The way your hands are formed provide no way of holding a shield upright.
@@ -218,7 +206,6 @@ Amphibians, able to move in both water and land, as long as they don't dry out.
 A large and mighty sea beast that lurks in the ocean depths
 
 **Ablities**: 
-
 - Gills: You can breathe underwater, but not on land.
 - Wet Eyes: Your vision underwater is perfect.
 - Water Based: You're used to the water, so move much slower on land.
@@ -242,7 +229,6 @@ A large and mighty sea beast that lurks in the ocean depths
 A loser with almost every debuff in game.
 
 **Ablities**: 
-
 - Claustrophobia: Being somewhere with a low ceiling for too long will weaken you and make you slower.
 - Carnivore: Your diet is restricted to meat, you can't eat vegetables.
 - Unwieldy: The way your hands are formed provide no way of holding a shield upright.
@@ -296,7 +282,6 @@ A loser with almost every debuff in game.
 Bloodsucking, lifestealing bug that is an expert at hiding away and surviving
 
 **Ablities**: 
-
 - Small Body: You're only one block tall, half as tall as a regular human.
 - Carnivore: Your diet is restricted to meat, you can't eat vegetables.
 - Fragile: You have 3 less hearts of health than humans.
@@ -318,7 +303,6 @@ Bloodsucking, lifestealing bug that is an expert at hiding away and surviving
 A defensive mob that is almost impossible to kill.
 
 **Ablities**: 
-
 - Unskilled: Your reliance on your magic has left you unskilled at melee combat.
 - Zombie Slowness: Your undead body moves at a slower pace than humans.
 - Curl Up: You can curl up into a ball whilst sneaking, giving you resistance and slowness
@@ -333,7 +317,6 @@ A defensive mob that is almost impossible to kill.
 A fish with wings, able to glide under and above water with grace
 
 **Ablities**: 
-
 - Winged: You have Elytra wings without needing to equip any.
 - Fins: Your underwater speed is increased.
 - Gills: You can breathe underwater, but not on land.
@@ -358,7 +341,6 @@ A fish with wings, able to glide under and above water with grace
 Worshippers of the moon and trained fighters, the Centaurs are much more powerful than regular horses, and become stronger on a full moon.
 
 **Ablities**: 
-
 - Half Horse: You are half horse, half human.
 - Powerful Jump: You've trained for your whole life, so can jump much higher than a regular horse.
 - Dashmaster: From years of training for race after race, you're much faster than any normal horse.
@@ -372,7 +354,6 @@ Worshippers of the moon and trained fighters, the Centaurs are much more powerfu
 Skilled masters of the bow, Elves shoot arrows that are much stronger and faster than any other creatures.
 
 **Ablities**: 
-
 - Skilled Archer: You've trained with a bow for many years, and you shoot your arrows perfectly straight.
 - Piercing Shot: All arrows you shoot deal increased damage.
 - Masterful Speed: Arrows you shoot are twice as fast than ones shot by a regular human.
@@ -386,7 +367,6 @@ Skilled masters of the bow, Elves shoot arrows that are much stronger and faster
 Although clumsy and weak with a bow and arrow, Giants are powerful creatures that can destroy any foe with their fists.
 
 **Ablities**: 
-
 - Double Health: As you're larger than humans, you have more health as your body protects you from damage.
 - Heavy Blow: Your attacks are stronger than humans, but you have a longer attack cooldown.
 - Clumsy Shot: Your big hands are clumsy with a bow, so your arrows are slow and not very accurate.
@@ -400,7 +380,7 @@ Although clumsy and weak with a bow and arrow, Giants are powerful creatures tha
 A regular human, born without any special abilities.
 
 **Ablities**: 
-
+- None
 
 ### Bard
 
@@ -409,7 +389,6 @@ A regular human, born without any special abilities.
 Bards are masters of music and song, and emit a musical aura.
 
 **Ablities**: 
-
 - Elegy: You become stronger when at less than 3 hearts.
 - Musically Attuned: You gain strength and speed when a nearby Note Block is played.
 - Allay Master: Your musical aura allows you to breed allays without playing music.
@@ -423,7 +402,6 @@ Bards are masters of music and song, and emit a musical aura.
 Children of ancient, long forgotten dragons, the Dragonborn have the increased power of their ancestors when in their homeland of the End.
 
 **Ablities**: 
-
 - Dragon's Breath: By right clicking using an empty bottle, you can store your own Dragon's Breath.
 - End Inhabitant: Your natural habitat is the end, so you have more health and are stronger when you are there.
 - Crystal Healer: You can regenerate health from nearby End Crystals.
@@ -437,7 +415,6 @@ Children of ancient, long forgotten dragons, the Dragonborn have the increased p
 Known for their great skill in finding minerals, the Dwarfs spend most of their time in caves deep underground.
 
 **Ablities**: 
-
 - Fast Miner: You're well trained in mining, so are much faster than a regular human.
 - Dark Eyes: You can see in the dark after generations of evolution.
 - Careful Miner: Your care and mastery in the art of extracting minerals results in a much higher yield from ores than other creatures.
@@ -451,7 +428,6 @@ Known for their great skill in finding minerals, the Dwarfs spend most of their 
 Stone statues awoken by magic, Gargoyles move slowly but are very strong.
 
 **Ablities**: 
-
 - `fantasyorigins:stone_skin` (Unknown ability)
 - Solid Stance: You are immune to knockback.
 - Stiff: Your stone body makes it harder to move, causing you to walk slower.
@@ -467,7 +443,6 @@ Stone statues awoken by magic, Gargoyles move slowly but are very strong.
 Spirits that have a special connection to the water, Naiads become much stronger in their home territory, though are weak on land.
 
 **Ablities**: 
-
 - Ocean's Grace: You are a part of the water, so you have extra health and deal extra damage when in water or rain.
 - Ocean Wish: Your natural habitat is the ocean, so you're much weaker when you're not in the water.
 - Gills: You can breathe underwater, but not on land.
@@ -483,7 +458,6 @@ Spirits that have a special connection to the water, Naiads become much stronger
 The vampire is a powerful creature of the night, with the ability to transform those it kills into more of its kind.
 
 **Ablities**: 
-
 - Vampiric Transformation: You can transform other players into vampires by killing them.
 - Daylight Sensitive: Your greatest weakness is daylight, which causes you to burst into flames.
 - Water Sensitive: You are hurt by water as its current drains your power.
@@ -500,7 +474,6 @@ The vampire is a powerful creature of the night, with the ability to transform t
 The alchemist knows its way around potions, as well as being able to produce gold.
 
 **Ablities**: 
-
 - Potion Master: Potions you drink and throw are much stronger.
 - Alchemy: Right clicking on a Copper Block will turn it to Gold, and vice versa.
 - Unskilled: Your reliance on your magic has left you unskilled at melee combat.
@@ -515,7 +488,6 @@ The alchemist knows its way around potions, as well as being able to produce gol
 Healers try to avoid fights and instead heal others, working to keep their teammates safe.
 
 **Ablities**: 
-
 - Final Shout: You can survive death once every 10 minutes.
 - Healing Touch: Right clicking on something will give it Regeneration II for 10 seconds.
 - Healing Focus: When standing still you focus your energy to regenerate health.
@@ -529,7 +501,6 @@ Healers try to avoid fights and instead heal others, working to keep their teamm
 Evil sorcerers using corrupted magic, Warlocks cannot use regular magic but have their own, stronger powers.
 
 **Ablities**: 
-
 - Dark Magic: Whenever you kill something, you absorb some of its health for up to 30 extra hearts.
 - Cursed Power: Upon hitting something, it gains a negative effect for 15 seconds.
 - Undead Ally: With your power over darkness, undead creatures will not attack you unprovoked.
@@ -546,7 +517,6 @@ Evil sorcerers using corrupted magic, Warlocks cannot use regular magic but have
 Hypnotists have a knack for confusing and controlling their enemies to get their way.
 
 **Ablities**: 
-
 - Hypnosis: Right clicking a monster will hypnotise it to target the last other thing you attacked.
 - Confusion: Right clicking on a player will give them Nausea for 30 seconds.
 - Unskilled: Your reliance on your magic has left you unskilled at melee combat.
@@ -560,7 +530,6 @@ Hypnotists have a knack for confusing and controlling their enemies to get their
 Shadowmancers push themselves to their very limits, giving them fearsome and dark power.
 
 **Ablities**: 
-
 - Shadow Form: In really dark places you enter Shadow Form, where nothing see or attack you.
 - Dark Strength: You deal more damage in the dark, but less in the light.
 - `magicorigins:double_fire_damage` (Unknown ability)
@@ -574,7 +543,6 @@ Shadowmancers push themselves to their very limits, giving them fearsome and dar
 Mages who use their minds to extend their reach and pick up items from a distance.
 
 **Ablities**: 
-
 - Telekinetic Reach: You can reach things much further away than normal.
 - Telekinesis: Items dropped from blocks and entities go straight into your inventory.
 - Slender Body: You can reach blocks and entities further away.
@@ -589,7 +557,6 @@ Mages who use their minds to extend their reach and pick up items from a distanc
 Dark mages who use spells to resurrect and control the dead.
 
 **Ablities**: 
-
 - Lord of the Dead: Nearby undead monsters not targeting you will go after whatever you attack.
 - Resurrection Spell: When you swing your fist, nearby dead players that have not yet respawned come back where they died.
 - Spirit Strength: You are stronger in the Nether, but weaker outside of it.
@@ -609,7 +576,6 @@ Dark mages who use spells to resurrect and control the dead.
 Spirits are lost souls that continue to wander the earth, rarely sighted and heard even less.
 
 **Ablities**: 
-
 - Spectral: Your ghost-like nature prevents you being detected by Sculk Sensors when you move or eat.
 - Ghostly: You can stand so still that you can't be seen.
 - Spirit Strength: You are stronger in the Nether, but weaker outside of it.
@@ -624,7 +590,6 @@ Spirits are lost souls that continue to wander the earth, rarely sighted and hea
 The dwellers of the deep ocean, they wield their tridents and attack the living that dare cross the ocean.
 
 **Ablities**: 
-
 - Trident Expert: You're a master of the trident, dealing +2 damage when you throw it, and +2 melee damage with it. You can also use channeling without thunder, and use riptide without rain/water at the price of extra durability.
 - `moborigins:water_vision` (Unknown ability)
 - Guardian Ally: Guardians don't attack you!
@@ -642,7 +607,6 @@ The dwellers of the deep ocean, they wield their tridents and attack the living 
 Sly and cunning, foxes are timid animals who enjoy eating berries, and stealing items.
 
 **Ablities**: 
-
 - Timid Creature: Your speed increases when you are around more than 3 other players.
 - Better Berries: Berries taste extra delicious to you!
 - Careful Gatherer: Sweet Berry Bushes don't hurt you at all.
@@ -657,7 +621,6 @@ Sly and cunning, foxes are timid animals who enjoy eating berries, and stealing 
 Strong and Fast, Wolves are creatures that have strength in numbers.
 
 **Ablities**: 
-
 - Wolf Body: You have 2 less hearts of health than humans.
 - Werewolf-like: During a full moon you get Faster, Stronger, and Healthier.
 - `moborigins:full_moon_health` (Unknown ability)
@@ -675,7 +638,6 @@ Strong and Fast, Wolves are creatures that have strength in numbers.
 Green blobs of Jello, that bounce all around!
 
 **Ablities**: 
-
 - Bouncy: All blocks act like slime blocks.
 - Split Ability: Turn your food points into a small slime to defend you!
 - Small Weakness: When at less than 2 hearts, you deal almost no damage, but your attacks have stronger knockback!
@@ -691,7 +653,6 @@ Green blobs of Jello, that bounce all around!
 A flying insect that pollinates the world, spreading flowers and honey all around.
 
 **Ablities**: 
-
 - Stinger: When you punch someone with your fist, you poison them for a few seconds.
 - Flower Power: When near multiple flowers, you gain regeneration.
 - Queen Bee: When you collect honey, the bees won't try to attack you.
@@ -706,7 +667,6 @@ A flying insect that pollinates the world, spreading flowers and honey all aroun
 Master of Magic, and a collector of Totems.
 
 **Ablities**: 
-
 - Summon Fangs: You have the ability to summon fangs!
 - Arcane Totems: Totems have a %s% chance not to break on use.
 - Pillager Aligned: Villagers don't like you, and pillagers like you!
@@ -719,7 +679,6 @@ Master of Magic, and a collector of Totems.
 Golems made from snow, and weak to anything that might melt them.
 
 **Ablities**: 
-
 - Hydrophobia: You receive damage over time while in contact with water.
 - `moborigins:temperature` (Unknown ability)
 - Overheat: You have a temperature bar that slowly begins to fill in hot biomes, and cool in other biomes.
@@ -736,7 +695,6 @@ Golems made from snow, and weak to anything that might melt them.
 Travel the vast oceans of lava with the speed of a strider.
 
 **Ablities**: 
-
 - Fire Immunity: You are immune to all types of fire damage.
 - Nether Inhabitant: Your natural spawn will be in the Nether.
 - Hydrophobia: You receive damage over time while in contact with water.
@@ -753,7 +711,6 @@ Travel the vast oceans of lava with the speed of a strider.
 Cruel and cackling, Witches are masters of brewing, and are great with magic.
 
 **Ablities**: 
-
 - Better Potions: You consume potions better than most, Potions will last longer when you drink them.
 - Perfect Potion: Get a random potion effect, based on the situation you are in.
 - `moborigins:witch_particles` (Unknown ability)
@@ -767,7 +724,6 @@ Cruel and cackling, Witches are masters of brewing, and are great with magic.
 Elder Guardians are the leaders of monuments, and wield more power than normal guardians.
 
 **Ablities**: 
-
 - Elder Spikes: Spikes that have a chance to damage attackers!
 - Elder Magic: You can cast a spell on nearby players to slow down their mining speed.
 - `moborigins:mining_fatigue_immune` (Unknown ability)
@@ -790,7 +746,6 @@ Elder Guardians are the leaders of monuments, and wield more power than normal g
 Guardians are known for protecting their Monuments and the treasured sponges within. Some are known for evolving into Elder Guardians.
 
 **Ablities**: 
-
 - Guardian Spikes: Spikes that have a chance to damage attackers!
 - Guardian Ally: Guardians don't attack you!
 - Prismarine Skin: Your skin is made of prismarine, and you get natural armor from it.
@@ -814,7 +769,6 @@ Guardians are known for protecting their Monuments and the treasured sponges wit
 A remnant of an unexpected mistake, the Creeper blasts its way through its enemies.
 
 **Ablities**: 
-
 - Creeper Ally: Creepers don't attack you!
 - Explosive: You can sacrifice some of your health to create an explosion every 15 seconds.
 - Afraid of Cats: You get nausea and weakness when around cats.
@@ -827,7 +781,6 @@ A remnant of an unexpected mistake, the Creeper blasts its way through its enemi
 The Husks are Zombies that have become used to the much harsher heat of the deserts after staying there for a long period of time.
 
 **Ablities**: 
-
 - Dark Sight: You can see in the dark when on land.
 - Hunger: Anything you hit gets the Hunger effect.
 - Undead Ally: Undead mobs don't attack you, unless you attack them first.
@@ -847,7 +800,6 @@ The Husks are Zombies that have become used to the much harsher heat of the dese
 Piglins are strange creatures of unknown origin, who formed their own society and culture worshipping their love of gold in the harsh wastelands of the Nether.
 
 **Ablities**: 
-
 - Gold Worshipper: Your adoration for gold unlocks its hidden power, making golden armor unbreakable and as strong as diamond.
 - Bartering Master: You're brilliant at bartering after a lifetime of experience, every time you barter you get between 2 and 5 times as many valuables.
 - Piglin Ally: Piglins don't attack you, unless you attack them first.
@@ -862,7 +814,6 @@ Piglins are strange creatures of unknown origin, who formed their own society an
 Reanimated bones of fallen archers, Skeletons have unlimited arrows and a perfect aim.
 
 **Ablities**: 
-
 - Dark Sight: You can see in the dark when on land.
 - Infinite Arrows: Arrows you shoot are not used up.
 - Undead Ally: Undead mobs don't attack you, unless you attack them first.
@@ -881,7 +832,6 @@ Reanimated bones of fallen archers, Skeletons have unlimited arrows and a perfec
 The Strays are frozen Skeletons that have found ways to harness the cold in order to slow down their enemies.
 
 **Ablities**: 
-
 - Infinite Arrows: Arrows you shoot are not used up.
 - `monsterorigins:freeze_immune` (Unknown ability)
 - Undead Ally: Undead mobs don't attack you, unless you attack them first.
@@ -902,7 +852,6 @@ The Strays are frozen Skeletons that have found ways to harness the cold in orde
 Guardian of the Ancient Cities, the Warden relies on its senses of smell and hearing to find its target.
 
 **Ablities**: 
-
 - Heightened Senses: You can see the outlines of nearby mobs, even through blocks.
 - Blindness: You can't see anything further than a few blocks away, though you can see further with night vision.
 - Powerful Swings: You deal twice as much damage as a normal player.
@@ -918,7 +867,6 @@ Guardian of the Ancient Cities, the Warden relies on its senses of smell and hea
 Locked away in the nether, over time Wither Skeletons have become resistant to fire.
 
 **Ablities**: 
-
 - Wither: Anything you hit gets the Wither effect.
 - Undead Ally: Undead mobs don't attack you, unless you attack them first.
 - `monsterorigins:wither_immunity` (Unknown ability)
@@ -935,7 +883,6 @@ Locked away in the nether, over time Wither Skeletons have become resistant to f
 Zombies are the corpses of fallen builders that have reawakened in the world for unknown reasons.
 
 **Ablities**: 
-
 - Dark Sight: You can see in the dark when on land.
 - Undead Ally: Undead mobs don't attack you, unless you attack them first.
 - `monsterorigins:undead` (Unknown ability)
@@ -955,7 +902,6 @@ Zombies are the corpses of fallen builders that have reawakened in the world for
 Piglins are strange creatures of unknown origin, who formed their own society and culture worshipping their love of gold in the harsh wastelands of the Nether.
 
 **Ablities**: 
-
 - Gold Desecration: Your evil corruption of gold unlocks a dark power, making golden weapons unbreakable and much stronger.
 - Terrifying Armies: Nearby Zombified Piglins will attack anything that that attacks you or that you attack.
 - Undead Ally: Undead mobs don't attack you, unless you attack them first.
@@ -973,7 +919,6 @@ Piglins are strange creatures of unknown origin, who formed their own society an
 The dwellers of the deep ocean, they wield their tridents and attack the living that dare cross the ocean.
 
 **Ablities**: 
-
 - Trident Expert: You're a master of the trident, dealing +2 damage when you throw it, and +2 melee damage with it. You can also use channeling without thunder, and use riptide without rain/water at the price of extra durability.
 - Water Vision: Your vision underwater is perfect.
 - Guardian Ally: Guardians don't attack you!
