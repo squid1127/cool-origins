@@ -184,7 +184,7 @@ class OriginsDocsGenerator:
                 
                 docs += f"{origin.description}\n\n"
                 
-                docs += f"**Ablities:**: \n\n"
+                docs += f"**Ablities**: \n\n"
                 
                 abilities_list = origin.ablities
                 for ability_id in abilities_list:
