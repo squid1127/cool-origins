@@ -1,0 +1,35 @@
+{
+	"powers": [
+		"monsterorigins:infinite_arrows",
+		"fantasyorigins:arrow_effect_booster",
+		"fantasyorigins:bow_burst",
+		"fantasyorigins:increased_arrow_damage",
+		"fantasyorigins:increased_arrow_speed",
+		"fantasyorigins:perfect_shot",
+		"moborigins:full_moon",
+		"monsterorigins:sense_movement",
+		"monsterorigins:land_night_vision",
+		"monsterorigins:better_aim",
+		"origins:fresh_air",
+		"origins:claustrophobia",
+		"magicorigins:double_fire_damage",
+		"magicorigins:silent",
+		"fantasyorigins:moon_strength",
+		"moborigins:timid_creature",
+		"moborigins:overheat",
+		"moborigins:melting",
+		"moborigins:temperature",
+		"moborigins:better_berries",
+		"origins:velvet_paws",
+		"origins:weak_arms",
+		"magicorigins:unskilled_warrior"
+	],
+	"icon": {
+		"item": "minecraft:bow"
+	},
+	"order": 9001,
+	"impact": 2,
+	"name": "Artemis",
+	"description": "God of the hunt and the moon. Known to thrive in forests in tune with nature and ways of the bow.",
+	"unchoosable": false
+}

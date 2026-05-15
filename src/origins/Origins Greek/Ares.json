@@ -1,0 +1,31 @@
+{
+	"powers": [
+		"origins:aerial_combatant",
+		"origins:burning_wrath",
+		"origins:hotblooded",
+		"origins:more_exhaustion",
+		"origins:natural_armor",
+		"origins:strong_arms",
+		"origins:flame_particles",
+		"monsterorigins:double_damage",
+		"monsterorigins:double_health",
+		"monsterorigins:explosive",
+		"monsterorigins:half_max_saturation",
+		"monsterorigins:slowness",
+		"monsterorigins:water_combatant",
+		"moborigins:pillager_aligned",
+		"moborigins:wolf_howl",
+		"fantasyorigins:elegy",
+		"fantasyorigins:heavy_blow",
+		"fantasyorigins:large_body",
+        "magicorigins:no_magic"
+	],
+	"icon": {
+		"item": "minecraft:bow"
+	},
+	"order": 9001,
+	"impact": 2,
+	"name": "Artemis",
+	"description": "God of the hunt and the moon. Known to thrive in forests in tune with nature and ways of the bow.",
+	"unchoosable": false
+}
