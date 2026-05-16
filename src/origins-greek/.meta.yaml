@@ -1,0 +1,2 @@
+skip: {{not origins.greek}}
+path: output_name
