@@ -1,0 +1,28 @@
+{
+	"powers": [
+    "origins:aqua_affinity",
+    "origins:like_water",
+    "origins:water_vision",
+    "origins:swim_speed",
+    "origins:more_exhaustion",
+    "origins:water_breathing",
+    "monsterorigins:trident_expert",
+    "monsterorigins:cold_slowness",
+    "monsterorigins:land_slowness",
+    "moborigins:guardian_ally",
+    "moborigins:water_combatant",
+    "moborigins:mining_fatigue_immune",
+    "moborigins:elder_magic",
+    "fantasyorigins:ocean_wish",
+    "fantasyorigins:oceans_grace",
+    "squid1127:call_of_the_sea"
+	],
+	"icon": {
+		"item": "minecraft:bottle_of_water"
+	},
+	"order": 675,
+	"impact": 3,
+	"name": "Follower of Poseidon",
+	"description": "Follower of the god of the sea, storms, and earthquakes. Famously powerful and a part of the big three, you traded your lungs in exchange for his power.",
+	"unchoosable": false
+}

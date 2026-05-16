@@ -1,0 +1,25 @@
+{
+    "powers": [
+        "magicorigins:unskilled_warrior",
+        "magicorigins:spare_life",
+        "magicorigins:regeneration_when_still",
+        "moborigins:small_bug",
+        "magicorigins:potion_master",
+        "magicorigins:interact_regeneration",
+        "magicorigins:interactions_give_nausea",
+        "magicorigins:bring_back_dead",
+        "fantasyorigins:chime",
+        "moborigins:witch_particles",
+        "moborigins:potion_action",
+        "moborigins:flower_power",
+        "monsterorigins:apply_hunger_effect",
+        "origins:fragile",
+        "forigins:more_exhaustion",
+        "fantasyorigins:poor_shot"
+    ],
+    "name": "Follower of Asclepius",
+    "description": "Follower of the god of medicine and health. After learning his teachings and earning his blessing, you know have great power.",
+    "icon": "minecraft:potion_of_instant_health",
+    "impact": 2,
+    "order": 674
+}

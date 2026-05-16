@@ -24,12 +24,9 @@
 		"origins:weak_arms",
 		"magicorigins:unskilled_warrior"
 	],
-	"icon": {
-		"item": "minecraft:bow"
-	},
-	"order": 9001,
+	"icon":"minecraft:bow",
+	"order": 670,
 	"impact": 2,
-	"name": "Artemis",
-	"description": "God of the hunt and the moon. Known to thrive in forests in tune with nature and ways of the bow.",
-	"unchoosable": false
+	"name": "Follower of Artemis",
+	"description": "God of the hunt and the moon. Known to thrive in forests in tune with nature and ways of the bow."
 }

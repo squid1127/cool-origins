@@ -1,0 +1,36 @@
+{
+	"powers": [
+		"origins:burn_in_daylight",
+		"origins:elytra",
+		"origins:carnivore",
+		"origins:grayscale",
+		"origins:invisibility",
+		"origins:hunger_over_time",
+		"origins:phasing",
+		"origins:burn_in_daylight",
+		"origins:nether_spawn",
+		"origins:weak_arms",
+		"origins:phantomize",
+		"origins:phantomize_overlay",
+		"monsterorigins:apply_wither_effect",
+		"monsterorigins:land_night_vision",
+		"monsterorigins:scare_villagers",
+		"monsterorigins:undead",
+		"monsterorigins:wither_immunity",
+        "fantasyorigins:leeching",
+		"magicorigins:kill_boost",
+		"magicorigins:bring_back_dead",
+		"magicorigins:dark_strength",
+		"magicorigins:unskilled_warrior",
+		"origins:light_armor",
+		"moborigins:surface_weakness"
+	],
+	"icon": {
+		"item": "minecraft:soul_torch"
+	},
+	"order": 672,
+	"impact": 3,
+	"name": "Follower of Thanatos",
+	"description": "God of painless deaths and servant of Hades. His powers surrounds dragging those to the underworld and slipping away in darkness.",
+	"unchoosable": false
+}

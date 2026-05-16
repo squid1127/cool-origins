@@ -20,12 +20,9 @@
 		"fantasyorigins:large_body",
         "magicorigins:no_magic"
 	],
-	"icon": {
-		"item": "minecraft:bow"
-	},
-	"order": 9001,
-	"impact": 2,
-	"name": "Artemis",
-	"description": "God of the hunt and the moon. Known to thrive in forests in tune with nature and ways of the bow.",
-	"unchoosable": false
+	"icon":"minecraft:netherite_axe",
+	"order": 671,
+	"impact": 3,
+	"name": "Follower of Ares",
+	"description": "God of war and violence, known to ride into battle and destroy his enemies in bloody terror."
 }

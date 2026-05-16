@@ -1,0 +1,17 @@
+{
+	"powers": [
+        "fantasyorigins:elegy",
+        "fantasyorigins:natural_armor",
+        "fantasyorigins:stronger",
+        "fantasyorigins:strong_skin",
+        "magicorigins:unskilled_warrior"
+	],
+	"icon": {
+		"item": "minecraft:iron_spear"
+	},
+	"order": 676,
+	"impact": 1,
+	"name": "Follower of Theseus",
+	"description": "Desciple of the warrior and king, Theseus. He has taught you his combat skills, being the strongest you can be as a human with no god's blessing.",
+	"unchoosable": false
+}
