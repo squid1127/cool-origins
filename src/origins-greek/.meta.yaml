@@ -1,2 +1,3 @@
 skip: {{not origins.greek}}
-path: output_name
+output_name: Origins-Reborn
+path: origins

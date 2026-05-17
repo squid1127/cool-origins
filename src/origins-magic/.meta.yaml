@@ -1,1 +1,3 @@
 skip: {{not origins.magic}}
+path: origins
+output_name: Origins-Magic

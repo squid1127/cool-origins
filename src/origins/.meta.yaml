@@ -1,1 +1,3 @@
 skip: {{not origins.base}}
+path: origins
+output_name: Origins-Reborn

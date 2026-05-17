@@ -1,1 +1,3 @@
 skip: {{not origins.fantasy}}
+path: origins
+output_name: Origins-Fantasy
