@@ -1,0 +1,102 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build: Make [All]",
+      "type": "shell",
+      "command": "fishy-config build -p all",
+      "icon": {
+        "id": "package"
+      }
+    },
+    {
+      "label": "Paper: Start",
+      "type": "shell",
+      "command": "podman-compose up -d",
+      "problemMatcher": [],
+      "icon": {
+        "id": "debug-start"
+      }
+    },
+    {
+      "label": "Paper: Stop",
+      "type": "shell",
+      "command": "podman-compose down",
+      "problemMatcher": [],
+      "icon": {
+        "id": "debug-stop"
+      }
+    },
+    {
+      "label": "Paper: Logs",
+      "type": "shell",
+      "command": "podman-compose logs -f",
+      "problemMatcher": [],
+      "icon": {
+        "id": "terminal"
+      }
+    },
+    {
+      "label": "Paper: Apply origins",
+      "dependsOn": ["Paper: Build origin package [All]", "Paper: Restart"],
+      "dependsOrder": "sequence",
+      "icon": {
+        "id": "check"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Paper: Build origin package [All]",
+      "type": "shell",
+      "command": "fishy-config build -p all build-paper.yaml",
+      "icon": {
+        "id": "symbol-package"
+      },
+      "options": {
+        "statusbar": {
+          "hide": true
+        }
+      }
+    },
+    {
+      "label": "Paper: Restart",
+      "type": "shell",
+      "command": "podman-compose restart",
+      "problemMatcher": [],
+      "options": {
+        "statusbar": {
+          "hide": true
+        }
+      }
+    },
+    {
+      "label": "Paper: Attach",
+      "type": "shell",
+      "command": "podman attach $(podman-compose ps -q) --detach-keys ctrl-c",
+      "problemMatcher": [],
+      "icon": {
+        "id": "terminal-cmd"
+      },
+      "options": {
+        "statusbar": {
+          "hide": true
+        }
+      }
+    },
+    {
+      "type": "vsls",
+      "taskUid": "shell:Paper: Attach",
+      "problemMatcher": ["$vsls"],
+      "label": "Shared: Paper: Attach"
+    },
+    {
+      "type": "vsls",
+      "taskUid": "$composite:Paper: Apply origins",
+      "problemMatcher": ["$vsls"],
+      "label": "Shared: Paper: Apply origins"
+    }
+  ]
+}
