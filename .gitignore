@@ -1,2 +1,4 @@
-# Dist
+# Dist folder (build files)
 dist
+# Paper folder (local paper server)
+paper
