@@ -39,9 +39,7 @@ Origins can be found in the `origins` folder, while Skript files are in the `skr
 
 ## Installation
 
-Automated install scripts coming soon!
-
-For manual installation, copy the origin json files to your Origins Reborn `origins` folder and any Skript files to your Skript `scripts` folder.
+Uhm there's a build system however i'm too lazy to explain it now.
 
 ## Contributing
 
