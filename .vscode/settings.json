@@ -1,3 +1,72 @@
 {
-  "cSpell.words": ["magicorigins", "monsterorigins", "netherite", "unchoosable"]
+  "cSpell.words": [
+    "cubbscratchstudios",
+    "magicorigins",
+    "monsterorigins",
+    "netherite",
+    "unchoosable"
+  ],
+  "files.associations": {
+    "*.json.j2": "json"
+  },
+  "json.schemas": [
+    {
+      "fileMatch": ["src/**/*.json"],
+      "schema": {
+        "type": "object",
+        "required": [
+          "name",
+          "description",
+          "powers",
+          "impact",
+          "order",
+          "icon"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "The name of the origin"
+          },
+          "description": {
+            "type": "string",
+            "description": "The description of the origin"
+          },
+          "powers": {
+            "type": "array",
+            "description": "The origins's abilities, as an array of ability IDs (e.g. ['origins:water_breathing'])",
+            "items": {
+              "type": "string",
+              "description": "The ID of an ability the origin has (e.g. 'origins:water_breathing')"
+            }
+          },
+          "impact": {
+            "type": "number",
+            "description": "The impact of the origin (1-3)",
+            "minimum": 1,
+            "maximum": 3
+          },
+          "unchoosable": {
+            "type": "boolean",
+            "description": "Whether the origin is unchoosable or not (Hidden from the origin selection screen)",
+            "default": false
+          },
+          "order": {
+            "type": "number",
+            "description": "The order of the origin in the origin selection screen (lowest = first)"
+          },
+          "icon": {
+            "type": "object",
+            "description": "The origin's icon, as a JSON object with an 'item' property (e.g. {\"item\": \"minecraft:stone\"})",
+            "required": ["item"],
+            "properties": {
+              "item": {
+                "type": "string",
+                "description": "The item to use as the icon, as a Minecraft item ID (e.g. minecraft:stone)"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
 }
