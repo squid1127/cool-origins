@@ -5,18 +5,18 @@ origins:
   weak_arms:
     # Blocks that count as natural stone
     natural_stones:
-    - minecraft:stone
-    - minecraft:tuff
-    - minecraft:granite
-    - minecraft:diorite
-    - minecraft:andesite
-    - minecraft:sandstone
-    - minecraft:smooth_sandstone
-    - minecraft:red_sandstone
-    - minecraft:smooth_red_sandstone
-    - minecraft:deepslate
-    - minecraft:blackstone
-    - minecraft:netherrack
+      - minecraft:stone
+      - minecraft:tuff
+      - minecraft:granite
+      - minecraft:diorite
+      - minecraft:andesite
+      - minecraft:sandstone
+      - minecraft:smooth_sandstone
+      - minecraft:red_sandstone
+      - minecraft:smooth_red_sandstone
+      - minecraft:deepslate
+      - minecraft:blackstone
+      - minecraft:netherrack
   fragile:
     attribute-modifier:
       # The operation to use ('ADD_SCALAR', 'ADD_NUMBER' or 'MULTIPLY_SCALAR_1')
@@ -32,25 +32,27 @@ origins:
     consume_and_poison: false
     # Items that count as meat
     meat:
-    - minecraft:porkchop
-    - minecraft:cooked_porkchop
-    - minecraft:beef
-    - minecraft:cooked_beef
-    - minecraft:chicken
-    - minecraft:cooked_chicken
-    - minecraft:rabbit
-    - minecraft:cooked_rabbit
-    - minecraft:mutton
-    - minecraft:cooked_mutton
-    - minecraft:rabbit_stew
-    - minecraft:cod
-    - minecraft:cooked_cod
-    - minecraft:tropical_fish
-    - minecraft:salmon
-    - minecraft:cooked_salmon
-    - minecraft:pufferfish
-    - minecraft:rotten_flesh
-    - minecraft:spider_eye
+      - minecraft:porkchop
+      - minecraft:cooked_
+      
+      
+      - minecraft:beef
+      - minecraft:cooked_beef
+      - minecraft:chicken
+      - minecraft:cooked_chicken
+      - minecraft:rabbit
+      - minecraft:cooked_rabbit
+      - minecraft:mutton
+      - minecraft:cooked_mutton
+      - minecraft:rabbit_stew
+      - minecraft:cod
+      - minecraft:cooked_cod
+      - minecraft:tropical_fish
+      - minecraft:salmon
+      - minecraft:cooked_salmon
+      - minecraft:pufferfish
+      - minecraft:rotten_flesh
+      - minecraft:spider_eye
   master_of_webs:
     # The duration of the cooldown (in ticks)
     cooldown-duration: 120
@@ -69,25 +71,25 @@ origins:
     consume_and_poison: false
     # Items that count as meat
     meat:
-    - minecraft:porkchop
-    - minecraft:cooked_porkchop
-    - minecraft:beef
-    - minecraft:cooked_beef
-    - minecraft:chicken
-    - minecraft:cooked_chicken
-    - minecraft:rabbit
-    - minecraft:cooked_rabbit
-    - minecraft:mutton
-    - minecraft:cooked_mutton
-    - minecraft:rabbit_stew
-    - minecraft:cod
-    - minecraft:cooked_cod
-    - minecraft:tropical_fish
-    - minecraft:salmon
-    - minecraft:cooked_salmon
-    - minecraft:pufferfish
-    - minecraft:rotten_flesh
-    - minecraft:spider_eye
+      - minecraft:porkchop
+      - minecraft:cooked_porkchop
+      - minecraft:beef
+      - minecraft:cooked_beef
+      - minecraft:chicken
+      - minecraft:cooked_chicken
+      - minecraft:rabbit
+      - minecraft:cooked_rabbit
+      - minecraft:mutton
+      - minecraft:cooked_mutton
+      - minecraft:rabbit_stew
+      - minecraft:cod
+      - minecraft:cooked_cod
+      - minecraft:tropical_fish
+      - minecraft:salmon
+      - minecraft:cooked_salmon
+      - minecraft:pufferfish
+      - minecraft:rotten_flesh
+      - minecraft:spider_eye
   nine_lives:
     attribute-modifier:
       # The operation to use ('ADD_SCALAR', 'ADD_NUMBER' or 'MULTIPLY_SCALAR_1')
@@ -113,8 +115,8 @@ origins:
       # The conditions (e.g. EMPTY_HAND, NO_BLOCK) that are required to trigger this ability
       # You can see a full list of conditions at https://starshooter.gitbook.io/origins-reborn/configuration#triggerable-ability-configuration
       conditions:
-      - NO_BLOCK
-      - EMPTY_HAND
+        - NO_BLOCK
+        - EMPTY_HAND
   throw_ender_pearl:
     trigger:
       # The action (e.g. LEFT_CLICK, RIGHT_CLICK) that triggers this ability
@@ -123,8 +125,8 @@ origins:
       # The conditions (e.g. EMPTY_HAND, NO_BLOCK) that are required to trigger this ability
       # You can see a full list of conditions at https://starshooter.gitbook.io/origins-reborn/configuration#triggerable-ability-configuration
       conditions:
-      - NO_BLOCK
-      - EMPTY_HAND
+        - NO_BLOCK
+        - EMPTY_HAND
     # The duration of the cooldown (in ticks)
     cooldown-duration: 30
   air_from_potions:
@@ -133,26 +135,26 @@ origins:
   light_armor:
     # Armor allowed to be equipped
     allowed_armor:
-    - minecraft:copper_boots
-    - minecraft:copper_leggings
-    - minecraft:copper_chestplate
-    - minecraft:copper_helmet
-    - minecraft:iron_chestplate
-    - minecraft:iron_leggings
-    - minecraft:iron_helmet
-    - minecraft:iron_boots
-    - minecraft:chainmail_helmet
-    - minecraft:chainmail_chestplate
-    - minecraft:chainmail_leggings
-    - minecraft:chainmail_boots
-    - minecraft:leather_helmet
-    - minecraft:leather_chestplate
-    - minecraft:leather_leggings
-    - minecraft:leather_boots
-    - minecraft:golden_helmet
-    - minecraft:golden_chestplate
-    - minecraft:golden_leggings
-    - minecraft:golden_boots
+      - minecraft:copper_boots
+      - minecraft:copper_leggings
+      - minecraft:copper_chestplate
+      - minecraft:copper_helmet
+      - minecraft:iron_chestplate
+      - minecraft:iron_leggings
+      - minecraft:iron_helmet
+      - minecraft:iron_boots
+      - minecraft:chainmail_helmet
+      - minecraft:chainmail_chestplate
+      - minecraft:chainmail_leggings
+      - minecraft:chainmail_boots
+      - minecraft:leather_helmet
+      - minecraft:leather_chestplate
+      - minecraft:leather_leggings
+      - minecraft:leather_boots
+      - minecraft:golden_helmet
+      - minecraft:golden_chestplate
+      - minecraft:golden_leggings
+      - minecraft:golden_boots
   damage_from_potions:
     # Amount of damage the player should take when drinking a potion
     damage_amount: 2
@@ -183,7 +185,7 @@ origins:
       # The conditions (e.g. EMPTY_HAND, NO_BLOCK) that are required to trigger this ability
       # You can see a full list of conditions at https://starshooter.gitbook.io/origins-reborn/configuration#triggerable-ability-configuration
       conditions:
-      - GLIDING
+        - GLIDING
     # The duration of the cooldown (in ticks)
     cooldown-duration: 600
   hunger_over_time:
@@ -204,9 +206,9 @@ origins:
   phasing:
     # Blocks you cannot pass through when phasing
     impassable_blocks:
-    - minecraft:obsidian
-    - minecraft:crying_obsidian
-    - minecraft:bedrock
+      - minecraft:obsidian
+      - minecraft:crying_obsidian
+      - minecraft:bedrock
     # Apply Blindness when Phasing
     give_blindness: true
     # Speed at which the player should move when phasing
@@ -214,38 +216,38 @@ origins:
   strong_arms:
     # Blocks that count as natural stone
     natural_stones:
-    - minecraft:stone
-    - minecraft:tuff
-    - minecraft:granite
-    - minecraft:diorite
-    - minecraft:andesite
-    - minecraft:sandstone
-    - minecraft:smooth_sandstone
-    - minecraft:red_sandstone
-    - minecraft:smooth_red_sandstone
-    - minecraft:deepslate
-    - minecraft:blackstone
-    - minecraft:netherrack
-    - minecraft:cobblestone
-    - minecraft:cobbled_deepslate
-    - minecraft:gold_ore
-    - minecraft:iron_ore
-    - minecraft:coal_ore
-    - minecraft:copper_ore
-    - minecraft:diamond_ore
-    - minecraft:emerald_ore
-    - minecraft:redstone_ore
-    - minecraft:nether_gold_ore
-    - minecraft:lapis_ore
-    - minecraft:nether_quartz_ore
-    - minecraft:deepslate_coal_ore
-    - minecraft:deepslate_gold_ore
-    - minecraft:deepslate_iron_ore
-    - minecraft:deepslate_copper_ore
-    - minecraft:deepslate_diamond_ore
-    - minecraft:deepslate_emerald_ore
-    - minecraft:deepslate_redstone_ore
-    - minecraft:deepslate_lapis_ore
+      - minecraft:stone
+      - minecraft:tuff
+      - minecraft:granite
+      - minecraft:diorite
+      - minecraft:andesite
+      - minecraft:sandstone
+      - minecraft:smooth_sandstone
+      - minecraft:red_sandstone
+      - minecraft:smooth_red_sandstone
+      - minecraft:deepslate
+      - minecraft:blackstone
+      - minecraft:netherrack
+      - minecraft:cobblestone
+      - minecraft:cobbled_deepslate
+      - minecraft:gold_ore
+      - minecraft:iron_ore
+      - minecraft:coal_ore
+      - minecraft:copper_ore
+      - minecraft:diamond_ore
+      - minecraft:emerald_ore
+      - minecraft:redstone_ore
+      - minecraft:nether_gold_ore
+      - minecraft:lapis_ore
+      - minecraft:nether_quartz_ore
+      - minecraft:deepslate_coal_ore
+      - minecraft:deepslate_gold_ore
+      - minecraft:deepslate_iron_ore
+      - minecraft:deepslate_copper_ore
+      - minecraft:deepslate_diamond_ore
+      - minecraft:deepslate_emerald_ore
+      - minecraft:deepslate_redstone_ore
+      - minecraft:deepslate_lapis_ore
   shulker_inventory:
     # Drop items in the inventory on death (will not change ability description, for that edit the translations.yml file)
     drop_on_death: false
@@ -321,7 +323,7 @@ fantasyorigins:
       # The conditions (e.g. EMPTY_HAND, NO_BLOCK) that are required to trigger this ability
       # You can see a full list of conditions at https://starshooter.gitbook.io/origins-reborn/configuration#triggerable-ability-configuration
       conditions:
-      - HOLDING_SWORD
+        - HOLDING_SWORD
   elegy:
     attribute-modifier:
       # The operation to use ('ADD_SCALAR', 'ADD_NUMBER' or 'MULTIPLY_SCALAR_1')
@@ -461,7 +463,7 @@ fantasyorigins:
       operation: MULTIPLY_SCALAR_1
       # A mathematical expression used to modify the attribute, where 'x' is a variable representing the default modifier.
       # Example: 'x * 3' will triple the value used in the modifier.
-      expression: x 
+      expression: x
 magicorigins:
   kill_boost:
     # The maximum amount of extra health you can get
@@ -697,7 +699,7 @@ moborigins:
       # The conditions (e.g. EMPTY_HAND, NO_BLOCK) that are required to trigger this ability
       # You can see a full list of conditions at https://starshooter.gitbook.io/origins-reborn/configuration#triggerable-ability-configuration
       conditions:
-      - EMPTY_HAND
+        - EMPTY_HAND
     # The duration of the cooldown (in ticks)
     cooldown-duration: 600
   full_moon:
@@ -795,7 +797,7 @@ moborigins:
       # The conditions (e.g. EMPTY_HAND, NO_BLOCK) that are required to trigger this ability
       # You can see a full list of conditions at https://starshooter.gitbook.io/origins-reborn/configuration#triggerable-ability-configuration
       conditions:
-      - EMPTY_HAND
+        - EMPTY_HAND
     # The duration of the cooldown (in ticks)
     cooldown-duration: 600
 monsterorigins:

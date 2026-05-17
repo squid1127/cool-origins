@@ -1,0 +1,2 @@
+skip: {{ not ability_config }}
+path: Origins-Reborn/ability-config.yml
