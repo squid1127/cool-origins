@@ -1,12 +1,12 @@
 on load:
-    register a new ability with key "squid1127:call_of_the_sea" and title "Call of the Sea" and description "You can call a thunderstorm on command using /cots every so often."
+    register a new ability with key "cubbscratchstudios:call_of_the_sea" and title "Call of the Sea" and description "You can call a thunderstorm on command using /cots every so often."
 
 
 command /cots:
     description: Call of the sea activation key
-    permission: squid1127.origins.cots
+    permission: cubbscratchstudios.origins.cots
     trigger:
-        if player has ability "squid1127:call_of_the_sea":
+        if player has ability "cubbscratchstudios:call_of_the_sea":
             if {cooldown::%uuid of player%::cots} is set:
                 if {cooldown::%uuid of player%::cots} was less than 1200 seconds ago:
                     send "<red>20m cooldown! %time since {cooldown::%uuid of player%::cots}% elapsed..."

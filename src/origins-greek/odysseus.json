@@ -1,0 +1,19 @@
+{
+    "name": "Odysseus",
+    "description": "A legendary Greek hero, King of Ithaca, and the brilliant mastermind behind the Trojan Horse. Renowned for his cunning intellect and immense endurance, he spent many years at sea, improving his capabilities ten fold.",
+    "powers": [
+        "origins:aqua_affinity",
+        "origins:like_water",
+        "origins:aquatic",
+        "origins:water_vision",
+        "origins:swim_speed",
+        "origins:natural_armor",
+        "monsterorigins:heat_slowness",
+        "monsterorigins:double_fire_damage"
+    ],
+    "icon": {
+        "item": "minecraft:trident"
+    },
+    "impact": 3,
+    "order": 677
+}

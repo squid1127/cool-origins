@@ -12,16 +12,18 @@
         "moborigins:timid_creature",
         "moborigins:surface_slowness",
         "moborigins:sly",
-        "moboorigins:small_weak_knockback",
+        "moborigins:small_weak_knockback",
         "moborigins:item_collector",
         "fantasyorigins:magic_resistance",
-        "squid1127:frog_jump",
+        "cubbscratchstudios:frog_jump",
         "fantasyorigins:increased_speed",
         "magicorigins:unskilled_warrior"
     ],
     "name": "Follower of Hermes",
     "description": "Follower of the god of commerce, thieves, and travelers. Hermes is known as the swift messenger of the gods, so you are blessed with quickness like no other.",
-    "icon": "minecraft:rabbit_foot",
+    "icon": {
+        "item": "minecraft:rabbit_foot"
+    },
     "impact": 2,
     "order": 673
 }

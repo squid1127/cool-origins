@@ -1,15 +1,14 @@
 on load:
-    register a new ability with key "squid1127:frog_jump" and title "Frog Leap" and description "Double left-clicking while sneaking allows you to leap into the air."
+    register a new ability with key "cubbscratchstudios:frog_jump" and title "Frog Leap" and description "Double left-clicking while sneaking allows you to leap into the air."
 
 on left click:
-    if player has ability "squid1127:frog_jump":
+    if player has ability "cubbscratchstudios:frog_jump":
         if player is sneaking:
             if player is on ground:
                 if {cooldown::%uuid of player%::frog_boost} is set:
                     if {cooldown::%uuid of player%::frog_boost} was less than 15 seconds ago:
                         send "<red>15s cooldown! %time since {cooldown::%uuid of player%::frog_boost}% elapsed..." to player
                         exit
-
 
                 if {cooldown::%uuid of player%::frog_boost_timeout} is not set:
                     send "<red>Double click to boost!" to player

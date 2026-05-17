@@ -14,12 +14,14 @@
         "moborigins:flower_power",
         "monsterorigins:apply_hunger_effect",
         "origins:fragile",
-        "forigins:more_exhaustion",
+        "origins:more_exhaustion",
         "fantasyorigins:poor_shot"
     ],
     "name": "Follower of Asclepius",
-    "description": "Follower of the god of medicine and health. After learning his teachings and earning his blessing, you know have great power.",
-    "icon": "minecraft:potion_of_instant_health",
+    "description": "Follower of the god of medicine and health. After learning his teachings and earning his blessing, you now wield the power of life itself.",
+    "icon": {
+        "item": "minecraft:potion[potion_contents=minecraft:healing]"
+    },
     "impact": 2,
     "order": 674
 }

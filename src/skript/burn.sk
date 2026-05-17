@@ -1,0 +1,13 @@
+
+on load:    
+    register a new ability with key "cubbscratchstudios:wax_wings" and title "Wax Wings" and description "Fly too close to the sun and you and your wings will burst into flames."
+
+every 2 seconds:
+    loop all players:
+        if loop-player is gliding:
+            if player has ability "cubbscratchstudios:wax_wings":
+                if loop-player's y-coordinate is larger than 200:
+                    ignite loop-player for 10 seconds
+                    loop 200 times:
+                        set gliding state of loop-player to false
+                        wait 2 ticks

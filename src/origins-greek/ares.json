@@ -20,9 +20,11 @@
 		"fantasyorigins:large_body",
         "magicorigins:no_magic"
 	],
-	"icon":"minecraft:netherite_axe",
+	"icon": {
+		"item": "minecraft:netherite_axe"
+	},
 	"order": 671,
 	"impact": 3,
 	"name": "Follower of Ares",
-	"description": "God of war and violence, known to ride into battle and destroy his enemies in bloody terror."
+	"description": "Follower of the god of war and violence, known to ride into battle and destroy his enemies in bloody terror."
 }

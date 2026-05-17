@@ -1,6 +1,13 @@
+
+
+
+
+
+
+
 {
 	"powers": [
-		"squid1127:wind_jump",
+		"cubbscratchstudios:wind_jump",
 		"origins:fall_immunity",
 		"origins:no_shield",
 		"origins:tailwind",

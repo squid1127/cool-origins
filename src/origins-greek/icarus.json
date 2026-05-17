@@ -1,0 +1,15 @@
+{
+    "name": "Icarus",
+    "description": "The boy blessed with the invention of wings. The boy blessed with the invention of wings. Heed your father's warnings, flying too close to the sun comes with a price.",
+    "powers": [
+        "cubbscratchstudios:wax_wings",
+        "origins:elytra",
+        "magicorigins:weak_in_water",
+        "moborigins:tailwind"
+    ],
+    "icon": {
+        "item": "minecraft:candle"
+    },
+    "impact": 1,
+    "order": 678
+}

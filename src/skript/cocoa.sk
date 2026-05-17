@@ -1,10 +1,10 @@
 on load:
-    register a new ability with key "squid1127:cocoa" and title "Poo" and description "You will drop cocoa beans (poo) when sneaking"
+    register a new ability with key "cubbscratchstudios:cocoa" and title "Poo" and description "You will drop cocoa beans (poo) when sneaking"
 
 
 on sneak toggle:
 
-    if player has ability "squid1127:cocoa":
+    if player has ability "cubbscratchstudios:cocoa":
 
         if player is not sneaking:
             if player is on ground:
