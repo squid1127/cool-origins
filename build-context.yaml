@@ -1,0 +1,23 @@
+type: object
+properties:
+  origins:
+    type: object
+    properties:
+      base:
+        type: boolean
+        default: false
+      fantasy:
+        type: boolean
+        default: false
+      magic:
+        type: boolean
+        default: false
+      mobs:
+        type: boolean
+        default: false
+      greek:
+        type: boolean
+        default: false
+  ability_config:
+    type: boolean
+    default: true

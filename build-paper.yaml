@@ -1,5 +1,5 @@
 source: src
-output: dist/raw
+output: paper/plugins
 
 context_file: build-context.yaml
 
@@ -25,9 +25,4 @@ presets:
       greek: true
 
 overwrite: true
-clean_output: true
-
-artifacts:
-  - id: main
-    artifact_type: zip
-    path: dist/origins.zip
+clean_output: false
