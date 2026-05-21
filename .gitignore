@@ -2,3 +2,6 @@
 dist
 # Paper folder (local paper server)
 paper
+
+# Local build manifest
+build-local.yaml
