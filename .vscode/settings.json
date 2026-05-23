@@ -9,6 +9,9 @@
   "files.associations": {
     "*.json.j2": "json"
   },
+  "[skript]": {
+    "editor.insertSpaces": false
+  },
   "json.schemas": [
     {
       "fileMatch": ["src/**/*.json"],
@@ -68,5 +71,6 @@
         }
       }
     }
-  ]
+  ],
+  "editor.detectIndentation": false
 }

@@ -1,27 +1,46 @@
 on load:
-    register a new ability with key "cubbscratchstudios:wind_jump" and title "Wind Jump" and description "You release a wind charge when sneaking, allowing you to boost yourself into the air."
-
-
-on sneak toggle:
-    if player has ability "cubbscratchstudios:wind_jump":
-        if player is not sneaking:
-            if player is on ground:
-                if {cooldown::%uuid of player%::wind_jump} is set:
-                    if {cooldown::%uuid of player%::wind_jump} was less than 5 seconds ago:
-                        send "<red>5s cooldown! %time since {cooldown::%uuid of player%::wind_jump}% elapsed..." to player
-                        exit
-
-                summon wind charge at player:
-                    detonate the wind charge
-
-                set {cooldown::%uuid of player%::wind_jump} to now
-
-                set {_cd_bar} to boss bar with id "cooldown__%uuid of player%__wind_jump" with title "Wind Jump" with color white with progress 0
-                add player to {_cd_bar}
-
-                while {cooldown::%uuid of player%::wind_jump} was less than 5 seconds ago:
-                    set {_t} to difference between now and {cooldown::%uuid of player%::wind_jump}
-                    set bar progress of {_cd_bar} to seconds of {_t} * 20
-                    wait 0.5 seconds
-
-                delete boss bar with id "cooldown__%uuid of player%__wind_jump"
+	register a new ability with key "cubbscratchstudios:wind_jump" and title "Wind Burst" and description "You release a wind charge when sneaking and double-clicking, allowing you to boost yourself into the air."
+	
+	
+on left click:
+	if player has ability "cubbscratchstudios:wind_jump":
+		if player is sneaking:
+		
+			if {cooldown::%uuid of player%::wind_jump} is set:
+				if {cooldown::%uuid of player%::wind_jump} was less than 5 seconds ago:
+					play sound "minecraft:block.note_block.bass" to player
+					exit
+					
+			if {cooldown::%uuid of player%::wind_jump_timeout} is not set:
+				set {_prompt_bar} to boss bar with id "cooldown__%uuid of player%__wind_jump_prompt" with title "Double click to wind burst!" with color white with progress 100
+				add player to {_prompt_bar}
+				set {cooldown::%uuid of player%::wind_jump_timeout} to now
+				wait 0.5 seconds
+				delete boss bar with id "cooldown__%uuid of player%__wind_jump_prompt"
+				exit
+				
+			if {cooldown::%uuid of player%::wind_jump_timeout} was more than 0.4 seconds ago:
+				set {cooldown::%uuid of player%::wind_jump_timeout} to now
+				wait 0.5 seconds
+				if {cooldown::%uuid of player%::wind_jump_timeout} was more than 0.4 seconds ago:
+					set {_prompt_bar} to boss bar with id "cooldown__%uuid of player%__wind_jump_prompt" with title "Double click to wind burst!" with color white with progress 100
+					add player to {_prompt_bar}
+					wait 0.5 seconds
+					delete boss bar with id "cooldown__%uuid of player%__wind_jump_prompt"
+				exit
+				
+			set {cooldown::%uuid of player%::wind_jump} to now
+			set {cooldown::%uuid of player%::wind_jump_timeout} to now
+			
+			summon wind charge at player:
+				detonate the wind charge
+			
+			set {_cd_bar} to boss bar with id "cooldown__%uuid of player%__wind_jump" with title "Wind Burst" with color white with progress 0
+			add player to {_cd_bar}
+			
+			while {cooldown::%uuid of player%::wind_jump} was less than 5 seconds ago:
+				set {_t} to difference between now and {cooldown::%uuid of player%::wind_jump}
+				set bar progress of {_cd_bar} to seconds of {_t} * 20
+				wait 0.5 seconds
+				
+			delete boss bar with id "cooldown__%uuid of player%__wind_jump"
