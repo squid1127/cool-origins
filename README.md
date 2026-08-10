@@ -2,6 +2,14 @@
 
 A set of custom origins for the Origins Reborn minecraft plugin.
 
+## NOT MAINTAINED
+
+We gave up on having origins on the server this was made for. Go figure.
+
+## PLUGIN ONLY
+
+This won't work for the mod
+
 ## Origin List
 
 Note: this list is probably out of date lol
